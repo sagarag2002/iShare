@@ -1,0 +1,188 @@
+*
+{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    font-family: sans-serif;
+    background-color: black;
+}
+#nav-bar
+{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.navbar{
+    background-image: linear-gradient(to right,black,black);
+    padding: 0 !important;
+}
+.navbar-brand h3{
+    padding-left: 20px;
+    color: white;
+    font-weight: 900;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-size: 24px;
+}
+.navbar-nav li{
+    padding: 0 10px;
+}
+.navbar-nav li a{
+    color: #fff !important ;
+    font-weight: 600;
+    float: right;
+    text-align: left;
+}
+.fa-bars
+{
+    color: #fff;
+    font-size: 30px !important;
+}
+.navbar-toggler
+{
+    outline: none !important ;
+}
+/*---------------Banner--------------*/
+header.masthead {
+    position: relative;
+    padding-top: 10rem;
+    padding-bottom: calc(10rem - 4.5rem);
+    background: url("../images/dash.09a3d2995fa3.jpg");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-attachment: scroll;
+      background-size: cover;
+  }
+  header.masthead h1 {
+    font-size: 2.25rem;
+  }
+  header.masthead h6{
+    color: #ffbd39;
+  }
+  header.masthead span{
+    color: #ffbd39;
+  }
+  @media (min-width: 992px) {
+    header.masthead {
+      height: 100vh;
+      min-height: 40rem;
+      padding-top: 4.5rem;
+      padding-bottom: 0;
+    }
+    header.masthead p {
+      font-size: 1.15rem;
+    }
+    header.masthead h6{
+        color: #000000;
+        font-weight: 600;
+        font-size: 14px;
+        letter-spacing: 3px;
+        text-transform: uppercase;
+        color: #ffbd39;
+    }
+    header.masthead h1 {
+      font-size: 3rem;
+    }
+    header.masthead span{
+      font-weight : 800;
+      color: #ffbd39;
+    }
+  }
+  @media (min-width: 1200px) {
+    header.masthead h1 {
+      font-size: 3.5rem;
+    }
+  }
+  .resume-wrap {
+    width: 100%;
+    margin-bottom: 30px;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 30px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    border-radius: 5px; }
+    .resume-wrap .date {
+      font-weight: 900;
+      font-size: 26px;
+      color: #ffbd39; }
+    .resume-wrap h2 {
+      font-size: 26px; }
+    .resume-wrap .position {
+      font-size: 12px;
+      font-weight: 600;
+      letter-spacing: 3px;
+      text-transform: uppercase; }
+h1, h2, h3, h4, h5,
+.h1, .h2, .h3, .h4, .h5 {
+        line-height: 1.5;
+        color: white;
+        font-weight: 400; }
+.resume-wrap span{
+    color: white;
+}       
+.resume-wrap p{
+    color: white;
+} 
+p{
+    color: white;
+}
+
+.services-1 {
+    margin-bottom: 40px;
+    padding: 2em;
+    background: rgba(255, 255, 255, 0.1);
+    width: 100%;
+    -webkit-box-shadow: 0px 20px 69px -27px rgba(0, 0, 0, 0.17);
+    -moz-box-shadow: 0px 20px 69px -27px rgba(0, 0, 0, 0.17);
+    box-shadow: 0px 20px 69px -27px rgba(0, 0, 0, 0.17); }
+    .services-1 .icon {
+      display: block;
+      margin-bottom: 30px; }
+      .services-1 .icon i {
+        font-size: 60px;
+        line-height: 1.0;
+        color: #ffbd39; }
+    .services-1 .desc h3 {
+      line-height: 1.3;
+      font-size: 13px;
+      font-weight: 500;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      position: relative;
+      color: #fff; }
+      .services-1 .desc h3:after {
+        position: absolute;
+        bottom: -15px;
+        left: 0;
+        right: 0;
+        content: '';
+        width: 30px;
+        height: 1px;
+        background: #ffbd39;
+        margin: 0 auto; }
+      .services-1 .desc h3 a {
+        color: #fff; }
+    .services-1 .desc h4 {
+      font-size: 20px;
+      font-weight: 300;
+      margin-bottom: 18px; }
+    .services-1 .desc span {
+      display: block;
+      text-transform: uppercase;
+      font-size: 12px;
+      margin-bottom: 10px;
+      color: #ffbd39; }
+    .services-1:hover {
+      background: #ffbd39; }
+      .services-1:hover .icon i {
+        color: #fff; }
+      .services-1:hover h3 {
+        color: #000000; }
+        .services-1:hover h3:after {
+          background: #000000; }
+.col-form-label{
+  color: black;
+}
